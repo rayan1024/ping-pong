@@ -1,7 +1,16 @@
-body {
-  width: 700px;
+body{
+  background-color: red;
+}
+#pong{
+  border: 2px solid rgb(9, 83, 168);
+  position: absolute;
   margin: auto;
-  padding: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+#resetB{
+  cursor: pointer;
+  color: red;
 }
